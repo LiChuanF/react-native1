@@ -1,5 +1,5 @@
 {
-    "name": "stickersmash",
+    "name": "addicon",
     "main": "expo-router/entry",
     "type": "module",
     "scripts": {
