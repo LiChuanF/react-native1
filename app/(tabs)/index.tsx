@@ -2,8 +2,8 @@ import { ImageSourcePropType, View, StyleSheet, Platform } from "react-native";
 import * as ImagePicker from "expo-image-picker";
 import { useState, useEffect, useRef } from "react";
 
-import domtoimage from "dom-to-image"; //
-import { GestureHandlerRootView } from "react-native-gesture-handler";
+import domtoimage from "dom-to-image"; // 图片转base64
+import { GestureHandlerRootView } from "react-native-gesture-handler"; // 手势处理根视图
 import * as MediaLibrary from "expo-media-library"; // 访问敏感信息
 import { captureRef } from "react-native-view-shot"; // 截图
 
@@ -15,7 +15,7 @@ import EmojiPicker from "@/components/EmojiPicker";
 import EmojiList from "@/components/EmojiList";
 import EmojiSticker from "@/components/EmojiSticker";
 
-const PlaceholderImage = require("@/assets/images/background-image.png");
+const PlaceholderImage = require("@/assets/images/background-image.jpg");
 
 export default function Index() {
     // 选择的图片

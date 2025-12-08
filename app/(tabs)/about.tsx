@@ -30,7 +30,7 @@ export default function App() {
                         contentFit="cover"
                         transition={1000}
                         cachePolicy="memory-disk"
-                        placeholder={require("@/assets/images/background-image.png")}
+                        placeholder={require("@/assets/images/background-image.jpg")}
                     />
                 </View>
             </View>
