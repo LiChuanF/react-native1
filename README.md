@@ -17,20 +17,27 @@ Example code for "Get started tutorial" in Expo documentation.
 
 ## 🚀 How to use
 
-- Install packages with `npm install` or `yarn install`.
-- Run `npx expo start` to start the bundler.
-- Open the project in Expo Go app:
-  - iOS: [Client iOS](https://itunes.apple.com/app/apple-store/id982107779)
-  - Android: [Client Android](https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=blankexample)
-  - Web: Any web browser
+-   Install packages with `npm install` or `yarn install`.
+-   Run `npx expo start` to start the bundler.
+-   Open the project in Expo Go app:
+    -   iOS: [Client iOS](https://itunes.apple.com/app/apple-store/id982107779)
+    -   Android: [Client Android](https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=blankexample)
+    -   Web: Any web browser
 
 ## Deploy
 
 Deploy on all platforms with Expo Application Services (EAS).
 
-- Deploy the website: `npx eas-cli deploy` — [Learn more](https://docs.expo.dev/eas/hosting/get-started/)
-- Deploy on iOS and Android using: `npx eas-cli build` — [Learn more](https://expo.dev/eas)
+-   Deploy the website: `npx eas-cli deploy` — [Learn more](https://docs.expo.dev/eas/hosting/get-started/)
+-   Deploy on iOS and Android using: `npx eas-cli build` — [Learn more](https://expo.dev/eas)
 
 ## 📝 Notes
 
 Learn more about building **StickerSmash** app from scratch in [Get started with Expo tutorial](https://docs.expo.dev/tutorial/introduction/).
+
+启动：npx expo start --go  
+打包开发：eas build --platform android --profile development
+安卓 apk 模拟器安装后启动服务： npx expo start --dev-client --host lan
+
+
+创建项目： npx create-expo-app@latest
